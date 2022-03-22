@@ -10,6 +10,7 @@
   },
   "timestamp": 2016,
   "user": "owner",
+
   "active": true,
   "measurements": {
     "temperature": 13.5,
