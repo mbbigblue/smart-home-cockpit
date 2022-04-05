@@ -1,20 +1,10 @@
-{
-  "id": "12345",
-  "location": {
-    "name": "Krakow",
-    "longitude": "50.0647°",
-    "latitude": "19.9450"
-    "area": "inside",
-    "location_description": "attic",
-    "comment": ""
-  },
-  "timestamp": 2016,
-  "user": "owner",
-
+{"id": "123f",
+  "name": "Temperature",
+  "location": "New York City",
+  "timestamp": "10-04-19 12:00:17",
+  "user": "Jack Strong",
   "active": true,
-  "measurements": {
-    "temperature": 13.5,
-    "scale": "Celsius"
-  },
-  "members":[]
+  "value": 17.3,
+  "scale": "C",
+  "comment": "Basement"
 }
