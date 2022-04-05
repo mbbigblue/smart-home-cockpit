@@ -8,7 +8,7 @@ class MeasurementRecord:
     name: str
     location: str
     timestamp: str
-    user: str
+    puser: str
     active: bool
     value: float
     scale: str
@@ -18,7 +18,7 @@ class MeasurementRecord:
 record = MeasurementRecord(id="123f",
                            location="New York City",
                            timestamp="10-04-19 12:00:17",
-                           user="Jack Strong",
+                           puser="Jack Strong",
                            active=True,
                            name="Temperature",
                            value=17.3,
