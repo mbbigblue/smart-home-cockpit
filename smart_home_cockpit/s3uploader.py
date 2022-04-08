@@ -17,6 +17,7 @@ class S3Uploader:
         print("successfully sent")
 
 
+#call S3 Uploader
 config = cnf.Config('config.yaml')
 s3uploader = S3Uploader(config.get_config())
 s3uploader.send_json_file("data3.json")
